@@ -48,7 +48,7 @@ export default async function createUserSchema(conn) {
             description: "Phone Number of user."
           },
           isPhysician: {
-            bsonType: ["boolean"],
+            bsonType: ["Boolean"],
             description: "Is user a physician?"
           },
           qualification: {
