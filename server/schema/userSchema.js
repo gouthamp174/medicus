@@ -72,7 +72,7 @@ export default async function createUserSchema(conn) {
   })
 
   console.log(`Users collection using schema was created.`)
-  await conn.db(process.env.DB_URI).collection("users")
+  await conn.db("medicus").collection("users")
     .createIndex({ username: 1 }, { unique: true })
 
   console.log(`Added username Index to Users collection.`)

@@ -95,7 +95,7 @@ function _createUserSchema() {
           case 2:
             console.log("Users collection using schema was created.");
             _context.next = 5;
-            return conn.db(process.env.DB_URI).collection("users").createIndex({
+            return conn.db("medicus").collection("users").createIndex({
               username: 1
             }, {
               unique: true
