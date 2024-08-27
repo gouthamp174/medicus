@@ -36,7 +36,7 @@ export default async function createChatSchema(conn) {
             description: "List of usernames of members active within chat."
           },
           appointmentId: {
-            bsonType: ["objectId", null],
+            bsonType: ["objectId", "null"],
             description: "Associated appointment Id for chat."
           }
         },

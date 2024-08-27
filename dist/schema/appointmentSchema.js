@@ -63,7 +63,7 @@ function _createAppointmentSchema() {
                       description: "Description of appointment."
                     },
                     chatId: {
-                      bsonType: ["objectId", null],
+                      bsonType: ["objectId", "null"],
                       description: "Associated Chat Id for the appointment."
                     }
                   },

@@ -42,7 +42,7 @@ export default async function createAppointmentSchema(conn) {
             description: "Description of appointment."
           },
           chatId: {
-            bsonType: ["objectId", null],
+            bsonType: ["objectId", "null"],
             description: "Associated Chat Id for the appointment."
           }
         },
