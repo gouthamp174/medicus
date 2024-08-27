@@ -69,7 +69,7 @@ function _createUserSchema() {
                       description: "Phone Number of user."
                     },
                     isPhysician: {
-                      bsonType: ["boolean"],
+                      bsonType: ["Boolean"],
                       description: "Is user a physician?"
                     },
                     qualification: {
